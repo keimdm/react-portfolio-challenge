@@ -4,7 +4,9 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <div>
-      <p>Header</p>
+      <div className="d-flex flex-row justify-content-center">
+        <p>David Keim</p>
+      </div>
       <Navigation />
     </div>
   );
