@@ -1,12 +1,32 @@
 import React from 'react';
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
     return (
         <div className="d-flex flex-row justify-content-around">
-            <p>About Me</p>
-            <p>Portfolio</p>
-            <p>Resume</p>
-            <p>Contact</p>
+            <a
+                href="#about-me"
+                onClick={() => handlePageChange('about-me')}
+                className={currentPage === 'about-me' ? 'bg-primary text-white' : 'nav-link'}
+            >About Me
+            </a>
+            <a
+                href="#portfolio"
+                onClick={() => handlePageChange('portfolio')}
+                className={currentPage === 'portfolio' ? 'bg-primary text-white' : 'nav-link'}
+            >Portfolio
+            </a>
+            <a
+                href="#resume"
+                onClick={() => handlePageChange('resume')}
+                className={currentPage === 'resume' ? 'bg-primary text-white' : 'nav-link'}
+            >Resume
+            </a>
+            <a
+                href="#contact"
+                onClick={() => handlePageChange('contact')}
+                className={currentPage === 'contact' ? 'bg-primary text-white' : 'nav-link'}
+            >Contact
+            </a>
         </div>
     );
 }
