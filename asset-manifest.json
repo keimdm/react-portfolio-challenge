@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio-challenge/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio-challenge/static/js/main.1cfab106.js",
+    "main.js": "/react-portfolio-challenge/static/js/main.6087675b.js",
     "static/media/profile-pic.png": "/react-portfolio-challenge/static/media/profile-pic.0e3e0036ae07fe10b415.png",
     "index.html": "/react-portfolio-challenge/index.html",
     "main.c2cab247.css.map": "/react-portfolio-challenge/static/css/main.c2cab247.css.map",
-    "main.1cfab106.js.map": "/react-portfolio-challenge/static/js/main.1cfab106.js.map"
+    "main.6087675b.js.map": "/react-portfolio-challenge/static/js/main.6087675b.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.1cfab106.js"
+    "static/js/main.6087675b.js"
   ]
 }
