@@ -1,14 +1,21 @@
 {
   "files": {
     "main.css": "/react-portfolio-challenge/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio-challenge/static/js/main.7f2ff6ab.js",
+    "main.js": "/react-portfolio-challenge/static/js/main.6e48f6ec.js",
     "static/media/profile-pic.png": "/react-portfolio-challenge/static/media/profile-pic.0e3e0036ae07fe10b415.png",
+    "static/media/music-sequencer.png": "/react-portfolio-challenge/static/media/music-sequencer.536fdbd8dca13cdd2705.png",
+    "static/media/cocktail-pic.jpg": "/react-portfolio-challenge/static/media/cocktail-pic.142ff959e1a854a80712.jpg",
+    "static/media/lifelog-pic.jpg": "/react-portfolio-challenge/static/media/lifelog-pic.cb38ac0cf42f4745da80.jpg",
+    "static/media/weather-pic.jpg": "/react-portfolio-challenge/static/media/weather-pic.da475357d2422ad77a4a.jpg",
+    "static/media/david-keim-resume.pdf": "/react-portfolio-challenge/static/media/david-keim-resume.8f1672d2d490d65f81ac.pdf",
+    "static/media/tic-tac-toe-pic.jpg": "/react-portfolio-challenge/static/media/tic-tac-toe-pic.f448495364fab337f0b6.jpg",
+    "static/media/table-tennis-pic.jpg": "/react-portfolio-challenge/static/media/table-tennis-pic.bee30769781c51fb48ac.jpg",
     "index.html": "/react-portfolio-challenge/index.html",
     "main.c2cab247.css.map": "/react-portfolio-challenge/static/css/main.c2cab247.css.map",
-    "main.7f2ff6ab.js.map": "/react-portfolio-challenge/static/js/main.7f2ff6ab.js.map"
+    "main.6e48f6ec.js.map": "/react-portfolio-challenge/static/js/main.6e48f6ec.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.7f2ff6ab.js"
+    "static/js/main.6e48f6ec.js"
   ]
 }
