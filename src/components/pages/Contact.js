@@ -33,7 +33,18 @@ function Contact() {
       }
     }
     else {
-      return setAlert("");
+      if (name === "email") {
+        var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        if (value.match(validRegex)) {
+          return setAlert("");
+        }
+        else {
+          return setAlert("Invalid email address");
+        }
+      }
+      else {
+        return setAlert("");
+      }
     }
   }
 
