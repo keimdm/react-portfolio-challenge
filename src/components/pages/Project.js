@@ -1,7 +1,7 @@
 import React from 'react';
 
 // renders code to generate cards in portfolio section
-function Project({item}) {
+function Project({item, index}) {
   return (
     <div className="my-2 py-2 bg-light d-flex flex-column justify-content-center align-items-center" key={index}>
       <p>{item.title}</p>

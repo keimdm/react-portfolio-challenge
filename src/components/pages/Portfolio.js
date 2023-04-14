@@ -62,7 +62,7 @@ function Portfolio() {
         <h3>Portfolio</h3>
         {
           projects.map((item, index) => (
-            <Project item={item} />
+            <Project item={item} index={index}/>
           ))
         }
       </div>
