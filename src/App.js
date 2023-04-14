@@ -6,10 +6,12 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 
+// returns  codee  for overall app structure
 function App() {
 
   const [currentPage, setCurrentPage] = useState('about-me');
 
+  // deteremines which page to show
   const renderPage = () => {
     if (currentPage === 'about-me') {
       return <About />;
@@ -23,8 +25,10 @@ function App() {
     return <Contact />;
   };
 
+  // handles a page  change when someone clicks  on the navigation links
   const handlePageChange = (page) => setCurrentPage(page);
 
+  // returns code to render page, including header, footer and content
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />

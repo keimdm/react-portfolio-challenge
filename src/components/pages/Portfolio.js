@@ -5,10 +5,12 @@ import weather from '../../assets/weather-pic.jpg';
 import music from '../../assets/music-sequencer.png';
 import tableTennis from '../../assets/table-tennis-pic.jpg';
 import ticTacToe from '../../assets/tic-tac-toe-pic.jpg';
+import Project from './Project';
 
-
+// returns  portfolio section with project cards
 function Portfolio() {
 
+  // data about projects
   const projects = [
     {
       id: 1,
@@ -54,17 +56,13 @@ function Portfolio() {
     },
   ]
 
+  // returns  code   to be rendered by looping through projects and building a card for  each (using project  component)
   return (
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h3>Portfolio</h3>
         {
           projects.map((item, index) => (
-            <div className="my-2 py-2 bg-light d-flex flex-column justify-content-center align-items-center" key={index}>
-              <p>{item.title}</p>
-              <a href={item.github}>GitHub Link</a>
-              <a href={item.deployed}>Deployed Application Link</a>
-              <img className="w-50" src={item.image} alt={item.title}></img>
-            </div>
+            <Project item={item} />
           ))
         }
       </div>

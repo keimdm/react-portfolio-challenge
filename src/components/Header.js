@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 
+// renders code for header, including the navigation element
 function Header({ currentPage, handlePageChange }) {
   return (
     <div>

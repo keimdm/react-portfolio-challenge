@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
+// returns contact form and functionality
 function Contact() {
   const [contactName, setContactName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [alert, setAlert] = useState('');
 
+  // updates contactName, email and message state  variables so that changes appear onscreen wheen made
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === "contactName") {
@@ -19,8 +21,10 @@ function Contact() {
     }
   };
 
+  // functionality for when the user clicks out of a field
   const handleBlur = (e) => {
     const { name, value } = e.target;
+    // handles blank fields by changing the value of an alert
     if (value === "" ) {
       if (name === "contactName") {
         return setAlert("The name field cannot be blank");
@@ -33,6 +37,7 @@ function Contact() {
       }
     }
     else {
+      // checks if email address is valid, adding an alert message if not
       if (name === "email") {
         var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         if (value.match(validRegex)) {
@@ -48,6 +53,7 @@ function Contact() {
     }
   }
 
+  // handles form submit by clearing the fields
   const handleFormSubmit = (e) => {
     e.preventDefault();
     setContactName('');
@@ -56,6 +62,7 @@ function Contact() {
     setAlert('');
   };
 
+  // returns  code  to be rendered
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <h3>Contact</h3>

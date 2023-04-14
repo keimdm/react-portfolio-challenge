@@ -1,6 +1,6 @@
 import React from 'react';
-import resume from "../../assets/david-keim-resume.pdf";
 
+// renders  code for resume section, including list of skills  and downloadable resume
 function Resume() {
   return (
     <div className="d-flex flex-row justify-content-center">

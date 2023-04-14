@@ -1,5 +1,6 @@
 import React from 'react';
 
+// renders code for footer
 function Footer() {
   return (
     <div className="d-flex flex-row justify-content-around bg-primary text-white">

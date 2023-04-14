@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from "../../assets/profile-pic.png";
 
+// returns about section with picture and short bio
 function About() {
   return (
       <div className="d-flex flex-column align-items-center">

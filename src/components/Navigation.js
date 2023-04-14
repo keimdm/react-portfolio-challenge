@@ -1,5 +1,6 @@
 import React from 'react';
 
+// reeturns code  to be renedered for navigation section, creating links that refer to handlePageChange method to change  the page being  vieweed
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <div className="d-flex flex-row justify-content-around">
